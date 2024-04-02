@@ -24,7 +24,7 @@ For example:
 ## Installation
 
 ```
-go get github.com/influxdata/go-syslog/v3
+go get github.com/haolipeng/go-syslog
 ```
 
 ## Docs

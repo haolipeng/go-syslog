@@ -3,7 +3,7 @@ package rfc3164
 import (
 	"time"
 
-	syslog "github.com/influxdata/go-syslog"
+	syslog "github.com/haolipeng/go-syslog"
 )
 
 // WithBestEffort enables the best effort mode.

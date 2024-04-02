@@ -1,10 +1,10 @@
 package rfc3164
 
 import (
+	"github.com/haolipeng/go-syslog"
 	"time"
 
-	"github.com/influxdata/go-syslog"
-	"github.com/influxdata/go-syslog/common"
+	"github.com/haolipeng/go-syslog/common"
 )
 
 type syslogMessage struct {

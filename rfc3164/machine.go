@@ -4,8 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/influxdata/go-syslog"
-	"github.com/influxdata/go-syslog/common"
+	"github.com/haolipeng/go-syslog/common"
 )
 
 var (
@@ -1064,7 +1063,7 @@ func (m *machine) Parse(input []byte) (syslog.LogParts, error) {
 			goto st9
 		case 48:
 			goto st374
-		case 49,50:
+		case 49, 50:
 			goto st282
 		case 51:
 			goto st283
@@ -5355,9 +5354,9 @@ func (m *machine) Parse(input []byte) (syslog.LogParts, error) {
 		}
 	stCase289:
 		switch (m.data)[(m.p)] {
-		case 97,65:
+		case 97, 65:
 			goto st290
-		case 117,85:
+		case 117, 85:
 			goto st291
 		}
 		goto tr7

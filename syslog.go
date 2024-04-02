@@ -6,7 +6,7 @@ import (
 	"io"
 	"time"
 
-	"github.com/influxdata/go-syslog/common"
+	"github.com/haolipeng/go-syslog/common"
 )
 
 type LogParts map[string]interface{}
